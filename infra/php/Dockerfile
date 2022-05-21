@@ -9,7 +9,7 @@ RUN apt-get update && \
   apt-get -y install --no-install-recommends git unzip libzip-dev libicu-dev libonig-dev libpq-dev && \
   apt-get clean && \
   rm -rf /var/lib/apt/lists/* && \
-  docker-php-ext-install pdo_mysql
+  docker-php-ext-install pdo_pgsql
 
 COPY ./php.ini /usr/local/etc/php/php.ini
 
