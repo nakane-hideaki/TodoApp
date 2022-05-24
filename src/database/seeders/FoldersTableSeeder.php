@@ -44,3 +44,4 @@ class FoldersTableSeeder extends Seeder
         }
     }
 }
+
