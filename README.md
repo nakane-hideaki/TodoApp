@@ -1,1 +1,11 @@
 # TodoApp
+- `code --install-extension bmewburn.vscode-intelephense-client` 
+- `code --install-extension donjayamanne.githistory` 
+- `code --install-extension MehediDracula.php-namespace-resolver` 
+- `code --install-extension mhutchie.git-graph` 
+- `code --install-extension oderwat.indent-rainbow` 
+- `code --install-extension onecentlin.laravel-blade`
+- `code --install-extension xdebug.php-debug` 
+- `code --install-extension xdebug.php-pack` 
+- `code --install-extension zobo.php-intellisense`
+- `code --install-extension bmewburn.vscode-intelephense-client`
