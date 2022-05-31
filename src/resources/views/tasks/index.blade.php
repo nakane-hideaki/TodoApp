@@ -51,7 +51,8 @@
                 </td>
                 <td>{{ $task->formatted_due_date }}</td>
                 <td>
-                    <a href="{{ route('tasks.edit', ['folder' => $task->folder_id, 'task_id' => $task->id]) }}">
+                    <a href="{{ route('tasks.edit', ['folder' => $task->folder_id, 'task' => $task->id]) }}">
+                      {{-- <a href="{{ route('tasks.edit', ['id' => $task->folder_id, 'task_id' => $task->id]) }}"> --}}
                         編集
                     </a>
                 </td>
