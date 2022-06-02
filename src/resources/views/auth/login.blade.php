@@ -17,7 +17,11 @@
             <form action="{{ route('login') }}" method="POST">
               @csrf
               <div class="form-group">
+<<<<<<< HEAD
                 <label for="email">メールアドレスあああ</label>
+=======
+                <label for="email">メールアドレスbb</label>
+>>>>>>> 7fd5ea00e61faf7363080fe1f7cb196ec39deac4
                 <input type="text" class="form-control" id="email" name="email" value="{{ old('email') }}" />
               </div>
               <div class="form-group">
