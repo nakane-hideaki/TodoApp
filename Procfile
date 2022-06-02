@@ -1,1 +1,1 @@
-web: src/public/
+web: /bin/heroku-php-apache2 public/
