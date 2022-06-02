@@ -17,7 +17,7 @@
             <form action="{{ route('login') }}" method="POST">
               @csrf
               <div class="form-group">
-                <label for="email">メールアドレスいいいいい</label>
+                <label for="email">メールアドレスあああ</label>
                 <input type="text" class="form-control" id="email" name="email" value="{{ old('email') }}" />
               </div>
               <div class="form-group">
