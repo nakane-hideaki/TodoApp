@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4d68213e3e8e6a82379967f47e8de1cb",
+    "content-hash": "08e284625682da7b003467a97152f631",
     "packages": [
         {
             "name": "brick/math",
@@ -1327,16 +1327,16 @@
         },
         {
             "name": "league/commonmark",
-            "version": "2.3.1",
+            "version": "2.3.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/commonmark.git",
-                "reference": "cb36fee279f7fca01d5d9399ddd1b37e48e2eca1"
+                "reference": "6eddb90a9e4a1a8c5773226068fcfb48cb36812a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/commonmark/zipball/cb36fee279f7fca01d5d9399ddd1b37e48e2eca1",
-                "reference": "cb36fee279f7fca01d5d9399ddd1b37e48e2eca1",
+                "url": "https://api.github.com/repos/thephpleague/commonmark/zipball/6eddb90a9e4a1a8c5773226068fcfb48cb36812a",
+                "reference": "6eddb90a9e4a1a8c5773226068fcfb48cb36812a",
                 "shasum": ""
             },
             "require": {
@@ -1429,7 +1429,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-05-14T15:37:39+00:00"
+            "time": "2022-06-03T14:07:39+00:00"
         },
         {
             "name": "league/config",
@@ -7893,6 +7893,8 @@
     "platform": {
         "php": "^8.0.2"
     },
-    "platform-dev": [],
-    "plugin-api-version": "2.2.0"
+    "platform-dev": {
+        "ext-redis": "5.3.7"
+    },
+    "plugin-api-version": "2.3.0"
 }
